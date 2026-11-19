@@ -1,0 +1,34 @@
+{
+    "best_model": "Logistic Regression",
+    "macro_f1": 0.727135163695425,
+    "accuracy": 0.79,
+    "balanced_accuracy": 0.7401647430011419,
+    "weighted_f1": 0.8009486535287543,
+    "train_samples": 7961,
+    "test_samples": 2000,
+    "sentiment_classes": [
+        "Negative",
+        "Neutral",
+        "Positive"
+    ],
+    "numerical_features": [
+        "Cost",
+        "Pictures",
+        "Review_Length",
+        "Word_Count",
+        "Char_Count",
+        "Review_Year",
+        "Review_Month",
+        "Review_Hour",
+        "Reviewer_Reviews",
+        "Reviewer_Followers",
+        "Cuisine_Count",
+        "Collection_Count"
+    ],
+    "categorical_features": [
+        "Primary_Cuisine",
+        "Cost_Category",
+        "Timing_Category"
+    ],
+    "text_feature": "Clean_Review"
+}
